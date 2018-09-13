@@ -38,10 +38,10 @@ var config = {
     },
   },
   blockchainExplorerOpts: {
-    btc: {
+    nix: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.bitpay.com:443',
+        url: 'https://blockchain.nixplatform.io:443',
       },
       testnet: {
         provider: 'insight',
@@ -68,7 +68,7 @@ var config = {
   pushNotificationsOpts: {
     templatePath: './lib/templates',
     defaultLanguage: 'en',
-    defaultUnit: 'btc',
+    defaultUnit: 'nix',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
     authorizationKey: 'You_have_to_put_something_here',

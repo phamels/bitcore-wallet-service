@@ -374,7 +374,7 @@ describe('Email notifications', function() {
       server.savePreferences({
         email: 'copayer1@domain.com',
         language: 'es',
-        unit: 'btc',
+        unit: 'nix',
       }, function(err) {
         server.createAddress({}, function(err, address) {
           should.not.exist(err);
